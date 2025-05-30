@@ -1,0 +1,31 @@
+body{
+    background: url('https://th.bing.com/th/id/OIP.ybyI5NcjhBYc2uVgriwqTgHaHa?w=179&h=180&c=7&r=0&o=5&pid=1.7');
+}
+.preço{
+    color: red;
+    font-size: 24px;
+    font-style: italic;
+}
+.pizza{
+    color: black;
+    font-size: 22px;
+}
+.imagem{
+    width: 300px;
+    height: 300px;
+    transition: all 0.75s;
+    cursor: pointer;
+    border: 5px solid transparent;
+}
+.imagem:hover{
+    -webkit-filter: drop-shadow(5px 25px 5px black);
+    filter: drop-shadow(5px 25px 5px black);
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+    border: 5px solid rgba(46, 136, 255, 0.911);
+    border-radius: 50%;
+}
+#titulo{
+    font-size: 25px;
+    color: red;
+}
