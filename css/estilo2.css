@@ -1,0 +1,44 @@
+.imagem1{
+    transition: all 2s;
+    cursor: pointer;
+    width: 500px;
+    height: 500px;
+}
+.imagem1:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+    width: 500px;
+    height: 500px;
+}
+.imagem2{
+    transition: all 2s;
+    cursor: pointer;
+    width: 500px;
+    height: 500px;
+}
+.imagem2:hover{
+    -webkit-filter: blur(7px);
+    filter: blur(7px);
+    width: 500px;
+    height: 500px;
+}
+.imagem3{
+    transition: all 2s;
+    cursor: pointer;
+    width: 500px;
+    height: 500px;
+}
+.imagem3:hover{
+    -webkit-transform:scale(1.5);
+    transform: scale(1.5);
+    width: 500px;
+    height: 500px;
+}
+.fundo{
+    background-image: url(../img/OIP.jpg);
+    text-align: center;
+    font-size: 8em;
+    color: transparent;
+    background-position: center;
+    background-clip: text;
+}
